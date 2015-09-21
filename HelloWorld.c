@@ -2,9 +2,14 @@
 #include<stdlib.h>
 
 int main(int argc, char* argv[]){
-  printf("Hello World!\n");
+  int i=0;
+  int n=5;
 
-  printf("argc %d \n", argc);
+  for(i = 0; i<n; i++){
+  
+     printf("Hello World!\n");
+  }
+  //printf("argc %d \n", argc);
 
   return EXIT_SUCCESS; 
 }
